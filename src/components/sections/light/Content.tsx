@@ -210,7 +210,7 @@ const Content = () => {
             <Card className="border-slate-500">
               <CardHeader>
                 <CardTitle className="flex items-center text-slate-800">
-                  <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
+                  <BookOpen className="w-5 h-5 mr-2 text-blue-200" />
                   Categorias
                 </CardTitle>
               </CardHeader>

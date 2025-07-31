@@ -57,16 +57,7 @@ const Content = () => {
       readTime: "4 min",
       category: "Inspeção",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop"
-    },
-    {
-      title: "Cores e Materiais: Tendências para Fachadas",
-      excerpt: "Explore as tendências de cores e materiais que estão definindo o design de fachadas em 2024.",
-      author: "Arq. Sofia Mendes",
-      date: "3 de Janeiro, 2024",
-      readTime: "5 min",
-      category: "Design",
-      image: "https://images.unsplash.com/photo-1515263487990-61b07816b924?w=400&h=250&fit=crop"
-    }
+    },   
   ];
 
   const categories = [
@@ -87,7 +78,7 @@ const Content = () => {
             Centro de
             <span className="block text-blue-600">Conhecimento</span>
           </h2>
-          <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Artigos técnicos, guias práticos e insights especializados sobre engenharia de fachadas 
             para manter você sempre atualizado.
           </p>
@@ -113,7 +104,7 @@ const Content = () => {
                 <Badge className="w-fit mb-4 bg-blue-100 text-blue-800 border-blue-200">
                   {featuredArticle.category}
                 </Badge>
-                <h3 className="text-3xl font-bold text-slate-100 mb-4">
+                <h3 className="text-3xl font-bold text-slate-800 mb-4">
                   {featuredArticle.title}
                 </h3>
                 <p className="text-slate-600 mb-6 leading-relaxed">

@@ -22,6 +22,7 @@ const Content = () => {
   };
 
   const articles = [
+    
     {
       title: "Impermeabilização: Como Escolher o Material Ideal",
       excerpt: "Análise comparativa dos principais materiais de impermeabilização disponíveis no mercado brasileiro.",
@@ -57,7 +58,16 @@ const Content = () => {
       readTime: "4 min",
       category: "Inspeção",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop"
-    },   
+    },
+    {
+      title: "Cores e Materiais: Tendências para Fachadas",
+      excerpt: "Explore as tendências de cores e materiais que estão definindo o design de fachadas em 2024.",
+      author: "Arq. Sofia Mendes",
+      date: "3 de Janeiro, 2024",
+      readTime: "5 min",
+      category: "Design",
+      image: "https://images.unsplash.com/photo-1515263487990-61b07816b924?w=400&h=250&fit=crop"
+    }
   ];
 
   const categories = [
@@ -198,7 +208,7 @@ const Content = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Categories */}
-            <Card className="border-slate-200">
+            <Card className="border-slate-600">
               <CardHeader>
                 <CardTitle className="flex items-center text-slate-200">
                   <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
@@ -211,7 +221,7 @@ const Content = () => {
                     key={index} 
                     className="flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 cursor-pointer transition-colors"
                   >
-                    <span className="text-slate-700 font-medium">{category.name}</span>
+                    <span className="text-slate-300 font-medium">{category.name}</span>
                     <Badge 
                       variant="secondary" 
                       className="bg-slate-100 text-slate-600 border-slate-200"

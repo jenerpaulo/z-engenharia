@@ -56,8 +56,7 @@ const Footer = () => {
                 src="/lovable-uploads/93ea0413-9261-47d8-bffa-cb437ae5d4df.png" 
                 alt="Z Engenharia Logo" 
                 className="h-12 w-auto"
-              />
-              <span className="text-2xl font-bold text-foreground">Z Engenharia</span>
+              />              
             </div>
             
             <p className="text-muted-foreground leading-relaxed">

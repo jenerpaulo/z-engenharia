@@ -89,12 +89,12 @@ const FAQ = () => {
 
         {/* Contact CTA */}
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-gradient-to-r from-slate-50 to-slate-100 border-slate-200">
+          <Card className="bg-gradient-to-r from-slate-50 to-slate-100 border-slate-500">
             <CardHeader className="text-center">
-              <CardTitle className="text-2xl font-bold text-slate-300 mb-2">
+              <CardTitle className="text-2xl font-bold text-slate-700 mb-2">
                 Ainda tem dúvidas?
               </CardTitle>
-              <p className="text-slate-200">
+              <p className="text-slate-700">
                 Nossa equipe técnica está pronta para esclarecer todas as suas questões
               </p>
             </CardHeader>
@@ -105,9 +105,9 @@ const FAQ = () => {
                   className="flex items-center justify-center p-6 h-auto border-slate-300 hover:bg-slate-200 hover:border-slate-400"
                 >
                   <div className="text-center">
-                    <Phone className="w-6 h-6 mx-auto mb-2 text-slate-200" />
-                    <div className="font-semibold text-slate-800">Telefone</div>
-                    <div className="text-sm text-slate-600">(21) 3333-4444</div>
+                    <Phone className="w-6 h-6 mx-auto mb-2 text-slate-600" />
+                    <div className="font-semibold text-slate-400">Telefone</div>
+                    <div className="text-sm text-slate-200">(21) 3333-4444</div>
                   </div>
                 </Button>
                 
@@ -116,9 +116,9 @@ const FAQ = () => {
                   className="flex items-center justify-center p-6 h-auto border-slate-300 hover:bg-slate-200 hover:border-slate-400"
                 >
                   <div className="text-center">
-                    <Mail className="w-6 h-6 mx-auto mb-2 text-slate-200" />
-                    <div className="font-semibold text-slate-800">E-mail</div>
-                    <div className="text-sm text-slate-600">contato@zengenharia.com</div>
+                    <Mail className="w-6 h-6 mx-auto mb-2 text-slate-600" />
+                    <div className="font-semibold text-slate-400">E-mail</div>
+                    <div className="text-sm text-slate-200">contato@zengenharia.com</div>
                   </div>
                 </Button>
                 
@@ -127,9 +127,9 @@ const FAQ = () => {
                   className="flex items-center justify-center p-6 h-auto border-slate-300 hover:bg-slate-200 hover:border-slate-400"
                 >
                   <div className="text-center">
-                    <MessageCircle className="w-6 h-6 mx-auto mb-2 text-slate-200" />
-                    <div className="font-semibold text-slate-800">WhatsApp</div>
-                    <div className="text-sm text-slate-600">(21) 99999-8888</div>
+                    <MessageCircle className="w-6 h-6 mx-auto mb-2 text-slate-600" />
+                    <div className="font-semibold text-slate-400">WhatsApp</div>
+                    <div className="text-sm text-slate-200">(21) 99999-8888</div>
                   </div>
                 </Button>
               </div>

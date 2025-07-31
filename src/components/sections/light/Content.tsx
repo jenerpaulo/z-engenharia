@@ -209,7 +209,7 @@ const Content = () => {
             {/* Categories */}
             <Card className="border-slate-200">
               <CardHeader>
-                <CardTitle className="flex items-center text-slate-400">
+                <CardTitle className="flex items-center text-slate-500">
                   <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
                   Categorias
                 </CardTitle>
@@ -220,10 +220,10 @@ const Content = () => {
                     key={index} 
                     className="flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 cursor-pointer transition-colors"
                   >
-                    <span className="text-slate-700 font-medium">{category.name}</span>
+                    <span className="text-slate-300 font-medium">{category.name}</span>
                     <Badge 
                       variant="secondary" 
-                      className="bg-slate-100 text-slate-600 border-slate-200"
+                      className="bg-slate-100 text-slate-500 border-slate-200"
                     >
                       {category.count}
                     </Badge>

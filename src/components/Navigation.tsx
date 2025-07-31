@@ -34,8 +34,7 @@ const Navigation = () => {
               src="/lovable-uploads/93ea0413-9261-47d8-bffa-cb437ae5d4df.png" 
               alt="Z Engenharia Logo" 
               className="h-10 w-auto"
-            />
-            <span className="text-xl font-bold text-foreground">Z Engenharia</span>
+            />            
           </div>
 
           {/* Desktop Menu */}

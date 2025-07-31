@@ -207,10 +207,10 @@ const Content = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Categories */}
-            <Card className="border-slate-500">
+            <Card className="border-slate-200">
               <CardHeader>
-                <CardTitle className="flex items-center text-slate-800">
-                  <BookOpen className="w-5 h-5 mr-2 text-blue-200" />
+                <CardTitle className="flex items-center text-slate-400">
+                  <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
                   Categorias
                 </CardTitle>
               </CardHeader>

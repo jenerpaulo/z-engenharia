@@ -71,11 +71,7 @@ const Footer = () => {
                   src="/lovable-uploads/93ea0413-9261-47d8-bffa-cb437ae5d4df.png" 
                   alt="Z Engenharia" 
                   className="h-12 w-auto mr-3"
-                />
-                <div>
-                  <h3 className="text-xl font-bold">Z Engenharia</h3>
-                  <p className="text-slate-400 text-sm">Fachada Predial</p>
-                </div>
+                />               
               </div>
               <p className="text-slate-300 mb-6 leading-relaxed">
                 Especialistas em engenharia de fachadas prediais há mais de 15 anos. 

@@ -57,16 +57,7 @@ const Content = () => {
       readTime: "4 min",
       category: "Inspeção",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop"
-    },
-    {
-      title: "Cores e Materiais: Tendências para Fachadas",
-      excerpt: "Explore as tendências de cores e materiais que estão definindo o design de fachadas em 2024.",
-      author: "Arq. Sofia Mendes",
-      date: "3 de Janeiro, 2024",
-      readTime: "5 min",
-      category: "Design",
-      image: "https://images.unsplash.com/photo-1515263487990-61b07816b924?w=400&h=250&fit=crop"
-    }
+    },  
   ];
 
   const categories = [

@@ -22,7 +22,6 @@ const Content = () => {
   };
 
   const articles = [
-    
     {
       title: "Impermeabilização: Como Escolher o Material Ideal",
       excerpt: "Análise comparativa dos principais materiais de impermeabilização disponíveis no mercado brasileiro.",
@@ -208,9 +207,9 @@ const Content = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Categories */}
-            <Card className="border-slate-600">
+            <Card className="border-slate-500">
               <CardHeader>
-                <CardTitle className="flex items-center text-slate-200">
+                <CardTitle className="flex items-center text-slate-800">
                   <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
                   Categorias
                 </CardTitle>
@@ -221,7 +220,7 @@ const Content = () => {
                     key={index} 
                     className="flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 cursor-pointer transition-colors"
                   >
-                    <span className="text-slate-300 font-medium">{category.name}</span>
+                    <span className="text-slate-700 font-medium">{category.name}</span>
                     <Badge 
                       variant="secondary" 
                       className="bg-slate-100 text-slate-600 border-slate-200"

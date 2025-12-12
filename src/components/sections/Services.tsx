@@ -17,14 +17,14 @@ const Services = () => {
       title: "Manutenção Predial",
       description: "Serviços completos de manutenção preventiva e corretiva para garantir a durabilidade e segurança de sua fachada.",
       features: ["Inspeção técnica", "Manutenção preventiva", "Relatórios detalhados", "Suporte 24/7"],
-      link: null
+      link: "/servicos/manutencao-predial"
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Impermeabilização",
       description: "Soluções avançadas em impermeabilização para proteger sua edificação contra infiltrações e umidade.",
       features: ["Diagnóstico completo", "Materiais de qualidade", "Garantia estendida", "Técnicas modernas"],
-      link: null
+      link: "/servicos/impermeabilizacao-edificios"
     },
     {
       icon: <Building2 className="w-8 h-8" />,
@@ -38,14 +38,14 @@ const Services = () => {
       title: "Reformas Estruturais",
       description: "Reformas completas com foco na modernização e adequação às normas de segurança atuais.",
       features: ["Projeto estrutural", "Execução completa", "Normas técnicas", "Pós-obra"],
-      link: null
+      link: "/servicos/reformas-estruturais"
     },
     {
       icon: <CheckCircle className="w-8 h-8" />,
       title: "Inspeção e Laudos",
       description: "Inspeções técnicas detalhadas e emissão de laudos para avaliação do estado da fachada.",
       features: ["Inspeção completa", "Laudo técnico", "Recomendações", "Plano de ação"],
-      link: null
+      link: "/servicos/inspecao-laudos"
     }
   ];
 

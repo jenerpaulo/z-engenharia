@@ -28,10 +28,10 @@ const Services = () => {
     },
     {
       icon: <Building2 className="w-8 h-8" />,
-      title: "Consultoria Técnica",
-      description: "Assessoria especializada para projetos de fachadas, laudos técnicos e aprovações junto aos órgãos competentes.",
-      features: ["Laudos técnicos", "Projetos executivos", "Aprovações legais", "Acompanhamento"],
-      link: null
+      title: "Reforma de Condomínio",
+      description: "Soluções completas para reforma e manutenção de condomínios residenciais e comerciais.",
+      features: ["Áreas comuns", "Instalações", "Pintura e acabamentos", "Adequação às normas"],
+      link: "/servicos/reforma-condominio"
     },
     {
       icon: <Hammer className="w-8 h-8" />,

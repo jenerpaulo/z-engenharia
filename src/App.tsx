@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Light from "./pages/Light";
 import NotFound from "./pages/NotFound";
 import ReformaFachadaPredial from "./pages/services/ReformaFachadaPredial";
+import ReformaCondominio from "./pages/services/ReformaCondominio";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/light" element={<Light />} />
           <Route path="/servicos/reforma-fachada-predial" element={<ReformaFachadaPredial />} />
+          <Route path="/servicos/reforma-condominio" element={<ReformaCondominio />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
